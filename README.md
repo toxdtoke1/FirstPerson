@@ -1,6 +1,6 @@
 Inicio del proyecto en First Person de Unity para la materia Motores Gráficos 1.
 
-Agregados: 
+Agregados 3/11/2026: 
 - Sistema de input nuevo
 - Prefabs de proyectiles y enemigos
 - Barras de vida de enemigos
