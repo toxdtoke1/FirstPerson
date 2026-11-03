@@ -21,6 +21,13 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
+
+		[Header("Shooting Settings")]
+		public GameObject projectilePrefab;
+		public Transform projectileSpawnPoint;
+
+		public float projectileForce = 20f;
+
 #if ENABLE_INPUT_SYSTEM
 		public void OnMove(InputValue value)
 		{
@@ -46,6 +53,21 @@ namespace StarterAssets
 			SprintInput(value.isPressed);
 		}
 #endif
+		public void OnShoot(InputValue value)
+		{
+			Debug.Log("Shoot triggered");
+			Shoot();
+		}
+
+
+		private void Shoot()
+		{
+			Debug.Log("Disparo");
+			GameObject newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, transform.rotation);
+			newProjectile.GetComponent<Rigidbody>().AddForce(projectileSpawnPoint.up * projectileForce, ForceMode.Impulse);
+			Destroy(newProjectile, 5f);
+
+		}
 
 
 		public void MoveInput(Vector2 newMoveDirection)
