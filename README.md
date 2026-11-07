@@ -11,4 +11,4 @@ Agregados 6/1172026:
 - Barras de vida Dinamicas de los enemigos (ahora poseen colores y se vacian segun la cantidad de vida)
 - Terreno y obstaculos setteados a Static para el Bake del entorno (Así podemos utilizar navigation para el movimmiento de los enemigos)
 - Movimiento de los enemigos con Navigation
-- 
+
