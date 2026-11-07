@@ -7,9 +7,9 @@ Agregados 3/11/2026:
 - Rigidbody y físicas a los proyectiles
 - Arma para el disparo del jugador
 
-Agregados 6/11/2026
-- Barra de vida de enemigos Dinámica con colores
-- Obstaculos y terreno Setteados a Static para permitir el Bake para la navigation de los enemigos
-- Movimiento de enemigos con NavMesh y Navigation Bake
+Agregados 6/11/2026:
+- Barras de vida Dinamicas de los enemigos (ahora poseen colores y se vacian segun la cantidad de vida)
+- Terreno y obstaculos setteados a Static para el Bake del entorno (Así podemos utilizar navigation para el movimmiento de los enemigos)
+- Movimiento de los enemigos con Navigation
 
 
