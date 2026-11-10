@@ -17,3 +17,5 @@ Cambios 9/11/2026
 -Interfaz interactuable con Paneles al momento de ganar o perder
 -Modelo 3D del enemigo
 -Animacion de caminata del enemigo
+
+
