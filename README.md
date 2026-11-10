@@ -12,4 +12,8 @@ Agregados 6/11/2026:
 - Terreno y obstaculos setteados a Static para el Bake del entorno (Así podemos utilizar navigation para el movimmiento de los enemigos)
 - Movimiento de los enemigos con Navigation
 
-
+Cambios 9/11/2026
+-Condiciones de Victoria y Derrota
+-Interfaz interactuable con Paneles al momento de ganar o perder
+-Modelo 3D del enemigo
+-Animacion de caminata del enemigo
